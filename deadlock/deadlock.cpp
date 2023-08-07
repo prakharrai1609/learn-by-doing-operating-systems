@@ -39,7 +39,7 @@ void threadFunction(int id) {
 
         if (rec1 == rec2) continue;
 
-        // Comment this line to create a dead lock.
+        // Uncomment this line to avoid a dead lock.
         // This is called "total ordering..."
         
         // if (rec1 > rec2) swap(rec1, rec2);
